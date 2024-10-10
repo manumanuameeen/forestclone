@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    margin: 0;
+}
+.full-body {
+    width: 100%;
+    height: 587px;
+    background-image: url(https://www.forestapp.cc/img/background.png);
+}
+.ul-font {
+    list-style-type: none;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    display: flex;
+    color: #a9a6a6;
+    float: right;
+    padding-top: 18px;
+    margin-right: 20px;
+    gap: 30px;
+
+}
+
+.ul-font li {
+    font-size: 19px;
+}
+
+.ul-font li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    padding-top: 80px;
+
+}
+
+.phone {
+    margin-right: 260px;
+    float: right;
+    height: 440px;
+    width: 228px;
+}
+
+.flower-main {
+    padding-top: 147px;
+}
+
+.flower {
+    margin-left: 240px;
+    float: left;
+    height: 92px;
+    width: 92px;
+
+}
+
+.app-main {
+    padding-top: 150px;
+}
+
+.app {
+    margin-left: 385px;
+    float: left;
+    width: 144px;
+    height: 43;
+
+}
+
+.google-main {
+    padding-left: 50px;
+}
+
+.google {
+    margin-left: 20px;
+    width: 144px;
+    height: 43px;
+}
+
+.stay-main {
+    margin-left: 385px;
+    margin-top: -150px;
+}
+
+.stay-main:hover {
+    color: white;
+}
+
+.stay {
+    /* font-size:xx-large; */
+
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    ;
+    padding-top: -190px;
+    color: rgb(220, 213, 213);
+    font-size: 31px;
+    font-weight: 400;
+
+}
+
+.forest2 {
+    font-size: 50px;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    ;
+    transform: translate(-145px, -133px);
+    color: rgb(235, 231, 231);
+    font-weight: 400px;
+
+}
+
+.new-green {
+    width: 100%;
+    height: 600px;
+    background-color: #50aa8d;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.cut{
+    
+    background-color:transparent;
+margin-left: 50px;
+margin-right: 50px;
+}
+.green-text {
+    padding-top: 50px;
+    font-size: 32px;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    color: white;
+    font-weight: 400;
+
+}
+
+.photo-main {
+
+    padding-top: 90px;
+    padding-left: 43px;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    gap: 81px;
+    align-items: center;
+}
+
+.photo-main p {
+    text-align: center;
+    font-size: 20px;
+    text-wrap: nowrap;
+
+}
+
+.photo-main>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pot-main {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f5e4e;
+}
+
+.text {
+    font-weight: 500;
+    color: white;
+    padding-right: 300px;
+    padding-bottom: 100px;
+    padding: 70px;
+    display: flex;
+
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    flex-direction: column;
+
+}
+
+.p2 {
+    font-size: large;
+    padding-bottom: 83px;
+    padding-left: 20px;
+}
+
+.p {
+    font-size: medium;
+    font-size: 33px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.textimage {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* 
+.image {
+    width: ;
+} */
+
+.pacha2 {
+    width: 100%;
+    height: 520px;
+    background-color: #50aa8d;
+}
+
+.text3 {
+    color: white;
+
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    font-size: xx-large;
+    padding-top: 54px;
+    text-align: center;
+}
+
+.photo3 {
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo3 img {
+    width: 300px;
+    height: 215.31px;
+
+
+}
+
+.photo3 p {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+
+}
+
+.tree-body {
+    background: url(https://www.forestapp.cc/img/real_tree_background.png) no-repeat;
+    background-size: 100%;
+    height: 650px;
+
+
+
+
+}
+
+.plant {
+    color: white;
+    font-size: 39px;
+    padding-top: 99px;
+}
+
+.tree-body p {
+
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    color: white;
+    text-align: center;
+
+}
+
+.number {
+    font-size: larger;
+    padding-top: 40px;
+}
+
+.text1 {
+    font-size: xx-large;
+}
+
+.number {
+    padding-top: 120px;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.three-main {
+    display: flex;
+
+
+}
+
+.image2 {
+    padding-left: 158px;
+    padding-top: 100px;
+
+}
+
+.ella-100 {
+    width: 67.49px;
+    height: 67.49px;
+
+}
+
+.text100 {
+    font-size: 19px;
+    padding-top: 101px;
+    padding-left: 31px;
+}
+
+.image-100 {
+    display: flex;
+    width: 194.99px;
+    height: 67.52px;
+}
+
+.image1 {
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+.mainbady100 {
+    width: 100%;
+    height: 369px;
+    background-color: #50aa8d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app2 {
+    color: white;
+    margin-bottom: 200px;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    font-size: 20px;
+
+}
+
+.mainbody100 {
+    width: 100%;
+    height: 370px;
+    background-color: #50aa8d;
+}
+
+.app100 {
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+    color: white;
+}
+
+.text2 {
+    font-size: 25px;
+    color: white;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    text-align: center;
+    margin-top: 107px;
+
+}
+
+.text200 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+
+}
+
+.hi100 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.aaa {
+    margin-left: 100px;
+    margin-top: -74px;
+    color: white;
+    font-size: 60px;
+}
+
+.bbb {
+    font-size: 60px;
+    color: white;
+    margin-left: 1167px;
+    margin-top: -71px;
+}
+
+.ccc {
+    color: white;
+
+    margin-left: 570px;
+    margin-top: 45px;
+    font-size: 21px;
+
+
+}
+
+/* .last-main{
+    height: 857px;
+    background-color: #414141;
+       font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+  
+  } */
+.container1 {
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+
+    background-color: #414141;
+    height: 980PX;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    padding: 60px;
+    padding-left: 120px;
+    gap: 92PX;
+}
+
+.container1 div {
+    width: 133px;
+    height: 33px;
+}
+
+.container1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.last-main {
+    background-color: #414141;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+
+.bro {
+    font-weight: 400;
+    color: white;
+    padding-top: 75px;
+    font-size: xx-large;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+
+}
+
+.hr {
+    color: white;
+    display: flex;
+
+}
+
+.line-100 {
+
+    color: #a9a6a6;
+
+}
+
+.footer-links {
+    font-weight: 200;
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    padding-left: 58px;
+    font-size: 11px;
+    padding-top: 10px;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+
+}
+
+.footer-links li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer-space {
+    background-color: #414141;
+    width: 100%;
+    height: 40px;
+}
+
+.line-200 {
+    margin-top: -8px;
+
+    gap: 1px;
+    font-size: 10px;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    padding-left: 1000px;
+    font-weight: 200;
+}
+
+.footer-last {
+    margin-bottom: -14px;
+}
+
+.link-1000 {
+
+    font-weight: 200;
+    color: #a9a6a6;
+    font-size: 11px;
+    padding-left: 1188px;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+}
+
+.link-1000:hover {
+    color: white;
+    cursor: pointer;
+
+}
